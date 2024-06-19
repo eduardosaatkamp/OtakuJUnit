@@ -12,7 +12,8 @@
 # intellij idea files
 .idea/
 *.iws
-*.iml
+* .iml
+* .xml
 *.ipr
 out/
 

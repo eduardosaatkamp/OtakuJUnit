@@ -16,7 +16,7 @@ public class Anime {
         super();
 
         if(anoLancamentoManga > dataLancamentoAnime.getYear()){
-            throw new IllegalArgumentException("Ano de lançamento do mangá não pode ser maior que o ano de aquisição do anime.");
+            throw new IllegalArgumentException("Ano de lançamento do mangá não pode ser maior que o ano de lançamento do anime.");
         }
         this.titulo = titulo;
         this.autor = autor;
